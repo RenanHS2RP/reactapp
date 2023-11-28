@@ -1,0 +1,30 @@
+.Despesa {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  min-width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.DespesaInteface {
+  font-size: large;
+  width: auto;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(243, 243, 243);
+  border-radius: 10%;
+}
+
+.DespesaInteface button {
+  font-size: large;
+}
+
+.DesItem :not(:first-child){
+  margin-top: 5%;
+}

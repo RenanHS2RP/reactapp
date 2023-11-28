@@ -1,0 +1,30 @@
+.Receita {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  min-width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ReceitaInteface {
+  font-size: large;
+  width: auto;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(188, 188, 188);
+  border-radius: 10%;
+}
+
+.ReceitaInteface button {
+  font-size: large;
+}
+
+.RecItem :not(:first-child){
+  margin-top: 5%;
+}

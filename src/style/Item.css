@@ -1,0 +1,22 @@
+.Item {
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    border-radius: 10%;
+}
+
+.Item h2{
+    margin-top: 0px;
+}
+
+.Item p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.Item p:last-child{
+    margin-bottom: 10px;
+}
